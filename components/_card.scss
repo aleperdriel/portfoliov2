@@ -1,0 +1,14 @@
+.card {
+    background-color: $light_main;
+    width: 10vw;
+    height: 10vw;
+    display: block;
+    box-shadow: 0 3px 6px #444;
+    border-radius: 15px;
+}
+
+.skills {
+    ul {
+        display: flex;
+    }
+}

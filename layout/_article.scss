@@ -1,0 +1,65 @@
+.project_pres {
+
+    h2 {
+        // position: absolute;
+        font-size: 112px;
+        text-shadow: 3px 3px 6px #111111;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+}
+
+.article_header {
+    background-image: url("img/virarmy_mockups.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 50vh;
+}
+
+.project_details {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 70%;
+    min-width: 800px;
+    justify-content: stretch;
+    margin: auto;
+    padding: 32px;
+    column-gap: 64px;
+
+    h3 {
+        margin-bottom: 24px;
+    }
+
+    .article_main {
+        grid-column: 1/2;
+    }
+    .side_infos {
+        grid-column: -2/-1;
+        grid-row: 2/3;
+
+    }
+    .side_title {
+        margin-bottom: 16px;
+    }
+
+    .side_item {
+        margin-bottom: 16px;
+    }
+
+}
+
+.article_gallery {
+    display: flex;
+
+    img {
+        height: 100%;
+        border: 1px solid #fff;
+    }
+}
+
+
+

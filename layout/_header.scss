@@ -1,0 +1,24 @@
+header {
+    width: 100%;
+    position: absolute;
+}
+
+nav {
+    padding: 16px;
+    width: 100%;
+    font-size: 24px;
+
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        width: 30%;
+        margin: auto;
+    }
+
+    a:hover {
+        color: $highlight_orange;
+        transition: color 0.3s;
+    }
+    
+}

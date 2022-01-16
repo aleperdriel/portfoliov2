@@ -7,6 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     
     <title>Auriane Le Perdriel | Fullstack developer</title>
@@ -15,23 +18,55 @@
     <header>
         <nav class="nav_home"> 
             <ul>
-                <li><a href="index.html"><img src="logo.png" alt="Logo ALP"></a></li>
-                <li class="nav_item"><a href="index.html#home">About</a></li>
-                <li class="nav_item"><a href="works.html">Projects</a></li>
-                <li class="nav_item"><a href="about.html">Skills</a></li>
-                <li class="nav_item"><a href="contact.html">Contact</a></li>
-                <li class="nav_item"><a href="LE_PERDRIEL_AURIANE_CV.pdf" download>Resumé</a></li>
+                <!-- <li><a href="index.html"><img src="logo.png" alt="Logo ALP"></a></li> -->
+                <li><a href="index.html" id="home_logo">ALP</a></li>
+                <div>
+                    <li class="nav_item"><a href="index.html#home">About</a></li>
+                    <li class="nav_item"><a href="works.html">Projects</a></li>
+                    <li class="nav_item"><a href="about.html">Skills</a></li>
+                    <li class="nav_item"><a href="contact.html">Contact</a></li>
+                </div>
+                <li class="nav_item button"><a href="LEPERDRIEL-AURIANE_CV.pdf" target="blank" download>RESUMÉ</a></li>
             </ul>
         </nav>
     </header>
-    <div id="home">
-        <h1>
-            Hi, I'm <span>Auriane Le Perdriel<span>fullstack</span> web developper.
-        </h1>
-        <img src="img/home_pp.png" alt="">
-        <p>...a fullstack developer ready to put your ideas into code.</p>
-        <a href="">Let's get to know each other</a>
-    </div>
+    <section id="home">
+        <div class="home_desc">
+            <h1>
+                Hi ! I'm <span>Auriane Le Perdriel</span>
+            </h1>
+            <img class="profile_img"src="img/home_pp.png" alt="">    
+        </div>
+        <p class="subtitle">...a fullstack developer ready to put your ideas into code.</p>
+        <a href="" class="cta">Let's get to know each other</a>
+        <img class="bg_circle bg_item1" src="img/bg_circle.png" alt="">
+        <img class="bg_circle bg_item2" src="img/bg_circle2.png" alt="">
+    </section>
+    <section>
+        <div>
+            <div class="project_preview">
+            <h2>Some works of mine...</h2>
+
+                <ul class="gallery">
+                    <li>
+                        <img src="img/virarmy_mockups.jpg" alt="">
+                        <div class="overlay"></div>
+                        <h3></h3>
+                    </li>
+                    <li>
+                        <img src="img/leol.png" alt="">
+                        <div class="overlay"></div>
+                        <h3></h3>
+                    </li>
+                    <li>
+                        <img src="img/new_fiji" alt="">
+                        <div class="overlay">   </div>
+                        <h3></h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
     
 </body>
 </html>

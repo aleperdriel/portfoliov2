@@ -1,24 +1,48 @@
 header {
     width: 100%;
-    position: absolute;
+    padding: 0.5em 10%;
+    margin-bottom: 3%;
 }
 
 nav {
-    padding: 16px;
+    padding: 1em;
     width: 100%;
-    font-size: 24px;
+    font-size: 1.25rem;
+    font-family: Noto Sans;
+    font-weight: 400;
+
+    #home_logo {
+        font-size: 1.5rem;
+        color: $secondary_orange;
+    }
 
     ul {
         display: flex;
         list-style: none;
-        justify-content: space-around;
-        width: 30%;
-        margin: auto;
-    }
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
 
-    a:hover {
-        color: $highlight_orange;
-        transition: color 0.3s;
+        a {
+            color: #bbb;
+        }
+        
+        a:hover {
+            color: $highlight_orange;
+            transition: color 0.3s;
+        }
+        
+        > div {
+            display: flex;
+            gap: 2em;
+        }
+
+        .button {
+            padding: 0.5em 2em;
+            border: 1px solid #fff;
+        }
+
+
+
     }
-    
 }

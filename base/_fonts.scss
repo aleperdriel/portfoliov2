@@ -3,12 +3,21 @@ body {
     color: #fff;
 }
 
-h1 {
-    font-size: 56px;
-    font-family: Yaldevi;
+h1  {
     font-weight: 200;
+    span {
+        font-family: Roboto;
+        font-size: 56px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
 }
 
+h2 {
+    font-family: Yaldevi;
+    color: $highlight_orange;
+}
 nav {
     font-family: SeoulNamsan;
 }

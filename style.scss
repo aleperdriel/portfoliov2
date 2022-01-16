@@ -58,9 +58,14 @@ body {
     }
     .cta {
         text-align: center;
-        margin: 2em auto;
+        margin: 1em auto;
         text-decoration: underline;
         display: block;
+        font-size: 2em;
+
+        &:hover {
+            
+        }
     }
     .profile_img{
         width: 85%;

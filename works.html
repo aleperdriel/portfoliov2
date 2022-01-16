@@ -1,55 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    
-    <title>Auriane Le Perdriel | Fullstack developer</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li class="nav_item"><a href="index.html#home">Home</a></li>
-                <li class="nav_item"><a href="works.html">Works</a></li>
-                <li class="nav_item"><a href="about.html">About</a></li>
-                <li class="nav_item"><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div id="works" class="section">
-        <section class="gallery">
-            <div class="section_item">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@200&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        
+        <title>Auriane Le Perdriel | Fullstack developer</title>
+    </head>
+    <body>
+        <header>
+            <nav class="nav_home"> 
+                <ul>
+                    <!-- <li><a href="index.html"><img src="logo.png" alt="Logo ALP"></a></li> -->
+                    <li><a href="index.html" id="home_logo">ALP</a></li>
+                    <div>
+                        <li class="nav_item"><a href="index.html#home">About</a></li>
+                        <li class="nav_item"><a href="works.html">Projects</a></li>
+                        <li class="nav_item"><a href="about.html">Skills</a></li>
+                        <li class="nav_item"><a href="contact.html">Contact</a></li>
+                    </div>
+                    <li class="nav_item button"><a href="LEPERDRIEL-AURIANE_CV.pdf" target="blank" download>RESUMÉ</a></li>
+                </ul>
+            </nav>
+        </header>
+    <div id="works">
+        <h2>My projects</h2>
+        <p>A few projects I have worked during the last two years. </p>
+        <section class="projects_gallery">
+            <img class="bg_circle bg_item1" src="img/bg_circle.png" alt="">
+            <img class="bg_circle bg_item2" src="img/bg_circle2.png" alt="">
+            <div class="project_card">
                 <a href="virarmy.html">
                     <img id="1" src="img/banner.jpg" alt="">
                 </a>
                 <div class="caption">
-                    <p>VIRARMY</p>
+                    <p>VIRARMY - May 2021</p>
+                    <p class="subtitle">UI, FRONT, BACKEND</p>
+                    
                 </div>
 
             </div>
 
-            <div class="section_item">
+            <div class="project_card">
                 <a href="leolearning.html">
                     <img id="2" src="img/leol.png" alt="">
                 </a>
                 <div class="caption">
                     <p>LEOLEARNING</p>
+                    <p class="subtitle">UI, FRONT, BACKEND</p>
                 </div>
             </div>
 
-            <div class="section_item">
+            <div class="project_card">
                 <a href="new_fiji.html">
-                <!-- <img id="3" src="" alt=""> -->
+                <img id="3" src="img/newFuji_1.png" alt="">
                 </a>
                 <div class="caption">
-                    <p>NEW FIJI (fictional)</p>
+                    <p>NEW FUJI (fictional)</p>
+                    <p class="subtitle">UI, FRONT, BACKEND</p>
                 </div>
+            </div>
+
+            <div class="project_card">
+                <a href="virarmy.html">
+                    <img id="1" src="img/banner.jpg" alt="">
+                </a>
+                <div class="caption">
+                    <p>POKETINDER</p>
+                    <p class="subtitle">UI, FRONT, BACKEND</p>
+                </div>
+
+            </div>
+
+            <div class="project_card">
+                <a href="virarmy.html">
+                    <img id="1" src="img/banner.jpg" alt="">
+                </a>
+                <div class="caption">
+                    <p>BINKO</p>
+                    <p class="subtitle">UI, FRONT, BACKEND</p>
+                </div>
+
+            </div>
+
+            <div class="project_card">
+                <a href="virarmy.html">
+                    <img id="1" src="img/banner.jpg" alt="">
+                </a>
+                <div class="caption">
+                    <p>COMING</p>
+                    <p>UI, FRONT, BACKEND</p>
+                </div>
+
             </div>
         </section>
     </div>

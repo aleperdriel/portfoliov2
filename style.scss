@@ -11,7 +11,9 @@
 
 @import url('https://cdn.rawgit.com/kattergil/seoulNamsan-Webfont/ce840f3d/styles.css');
 
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     min-height: 100vh;
     height: 100%;
@@ -56,6 +58,9 @@ body {
     }
     .cta {
         text-align: center;
+        margin: 2em auto;
+        text-decoration: underline;
+        display: block;
     }
     .profile_img{
         width: 85%;
@@ -71,7 +76,7 @@ body {
 }
 
 .project_preview {
-    padding: 10%;
+    padding: 5% 10%;
     position: relative;
 
 
@@ -131,6 +136,7 @@ body {
                 padding: 1em;
 
             }
+
         }
         
         .overlay {
@@ -178,6 +184,7 @@ body {
     }
 }
 #works {
+    padding: 2em 5%;
     .bg_item1 {
         left: -5%;
         top: 0;
@@ -225,5 +232,48 @@ body {
         }
     }
 
+
+    
    
+}
+
+#skills {
+    padding: 3em 10%;
+
+    h3 {
+        margin-top: 2em;
+    }
+}
+.skills_bar {
+    display: flex;
+    background-color: rgba(46, 42, 48, 0.507);
+    padding: 1em;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    
+    li {
+        width: 20%;
+        img {
+
+            width: 100%;
+            max-height: 100px;
+
+            object-fit: contain;
+        }
+
+    }
+}
+
+footer {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    font-weight: 200;
+    background-color: rgb(0,0,0,0.1);
+    backdrop-filter: blur(10px);
 }

@@ -1,3 +1,17 @@
+.project {
+    .banner_line {
+        opacity: 0.5;
+        background-image: url('img/banner_line.png');
+        width: 100%;
+        background-size: 50%;
+        height: 80px;
+        background-repeat: no-repeat;
+        background-repeat: repeat-x;
+        overflow: hidden;
+
+    }
+}
+
 .project_pres {
 
     h2 {
@@ -12,12 +26,27 @@
 }
 
 .article_header {
-    background-image: url("img/virarmy_mockups.jpg");
-    height: 90vh;
+    height: 50vh;
     background-size: cover;
     background-position: center;
     text-align: center;
-    padding-top: 50vh;
+    padding: 100px 0;
+
+    &.virarmy_header {
+        background-image: url("img/virarmy_mockups.jpg");
+    }
+
+    &.ll_header {
+        background-image: url("img/leolearning_mockups.png");
+    }
+
+    &.newFuji_header {
+        background-image: url("img/newFuji_1.png");
+    }
+
+    &.binko_header {
+        background-image: url("img/binko.png");
+    }
 }
 
 .project_details {
